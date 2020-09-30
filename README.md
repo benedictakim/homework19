@@ -1,5 +1,5 @@
 # Employee Directory
-This is a software engineering team generator command line application. Using Node CLI, the user can input team member profiles and generate a team profile disply in HTML file. 
+This is an employee directory application using React.
 
 ![HTML Badge](https://img.shields.io/badge/-HTML-323795) ![CSS Badge](https://img.shields.io/badge/-CSS-01A990) ![JavaScript Badge](https://img.shields.io/badge/-JavaScript-539436) ![API Badge](https://img.shields.io/badge/-API-F58021) ![Node.JS Badge](https://img.shields.io/badge/-Node.JS-CF1848) ![React.JS Badge](https://img.shields.io/badge/-React.js-yellow)
  
