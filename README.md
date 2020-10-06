@@ -5,7 +5,7 @@ This is an employee directory application using React and https://randomuser.me/
  
 ## User Story
 ```
-As a user, 
+As a manager, 
 I WANT to be able to view my entire employee directory at once 
 SO THAT I have quick access to their non-sensitive information.
 ```
