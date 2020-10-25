@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import Searchform from "./Searchform";
-import DataAreaContext from "./utils/DataAreaContext"
+import Table from "./Table";
 import API from "../utils/api";
 
 class TableContainer extends Component {
@@ -70,10 +70,20 @@ class TableContainer extends Component {
         })
     }
 
-    // return (
-    //     <DataAreaContext.Provider value={{ handlesearchchange, handleemployee, componentDidMount}}>
-    //     </DataAreaContext.Provider>
-    // );
+    render() {
+        return (
+            <div>
+                <Searchform
+                    searchString={this.state.searchString}
+                    handleInputChange={this.handleInputChange}
+                    handleFormSubmit={this.handleFormSubmit}
+                    handleSort={this.handleSort}
+                    handleFormReset={this.handleFormReset}
+                />
+                <Table rows={this.state.displayRows} />
+            </div>
+        )
+    }
 }
 
-export default TableContainer
+export default TableContainer;

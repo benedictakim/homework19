@@ -1,15 +1,22 @@
 import React from "react";
+import DataAreaContext from "../utils/DataAreaContext";
 
 function searchform () {
+   
     return (
         <div className="search-box">
             <form className="form-inline">
-                <input/>
+                <input
+                    type="search"
+                    placeholder="Search"
+                    onChange={e => DataAreaContext.handleSearchChange(e)}
+                />
+                <button>
+                    Search
+                </button>
             </form>
         </div>
     )
 }
-//connect to other functions 
 
-
-export default searchform
+export default searchform;

@@ -9,9 +9,6 @@ import "../styles/Header.css";
 // Non quoted values default to "pixels", e.g. height, margin, padding
 
 const styles = {
-  headerStyle: {
-    background: "blue"
-  },
   headingStyle: {
     fontSize: 50
   }
